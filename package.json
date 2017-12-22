@@ -1,0 +1,48 @@
+{
+  "name": "react-pages-boilerplate",
+  "version": "1.0.0",
+  "repository": "https://github.com/GarrisonD/react-pages-boilerplate",
+  "author": "Ihor Dotsenko <ihor.dotsenko@rubygarage.org> (https://github.com/GarrisonD)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open --progress --hot --history-api-fallback --config webpack.config.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --config webpack.config.prod.js",
+    "lint": "eslint --fix src/"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^5.1.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.6.1",
+    "eslint-plugin-react": "^7.3.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^3.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "redux": "^3.7.2",
+    "redux-multi": "^0.1.12",
+    "redux-thunk": "^2.2.0",
+    "truffle-contract": "^3.0.1"
+  }
+}
